@@ -1,4 +1,4 @@
-# fileCompressor# File Compression Tool
+# File Compression Tool
 
 ## Overview
 
