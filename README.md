@@ -22,13 +22,13 @@ FileCompressionTool/
 │   ├── utils.c
 │── include/
 │   ├── compression.h
+│   ├── constants.h
 │   ├── decompression.h
 │   ├── utils.h
 │── test_files/
 │   ├── sample.txt
 │   ├── expected_output.rle
 │── build/
-│── constants.h
 │── Makefile
 │── README.md
 ```

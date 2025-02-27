@@ -1,8 +1,10 @@
-/* utils.h */
 #ifndef UTILS_H
 #define UTILS_H
 
-int file_exists(const char *filename);
-void generate_output_filename(const char *input_filename, const char *extension, char *output_filename);
+#include <stdio.h>
+#include <stddef.h>
 
-#endif /* UTILS_H */
+void close_file(FILE *file);
+int generate_unique_filename(const char *input_filename, const char *new_extension, char *output_filename, size_t max_length);
+
+#endif // UTILS_H
